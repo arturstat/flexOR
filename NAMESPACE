@@ -9,16 +9,18 @@ export(floor_to)
 import(gam)
 import(graphics)
 importFrom(grDevices,rgb)
-importFrom(stats,AIC)
-importFrom(stats,BIC)
-importFrom(stats,approx)
-importFrom(stats,as.formula)
-importFrom(stats,binomial)
-importFrom(stats,logLik)
-importFrom(stats,na.omit)
-importFrom(stats,predict)
-importFrom(stats,qnorm)
-importFrom(stats,quantile)
-importFrom(stats,terms)
-importFrom(stats,update)
-importFrom(stats,vcov)
+importFrom(stats,
+  AIC,
+  BIC,
+  approx,
+  as.formula,
+  binomial,
+  logLik,
+  na.omit,
+  predict,
+  qnorm,
+  quantile,
+  terms,
+  update,
+  vcov
+)
