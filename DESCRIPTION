@@ -2,7 +2,7 @@ Encoding: UTF-8
 Package: flexOR
 Type: Package
 Version: 1.0.1
-Date: 2024-09-24
+Date: 2026-09-29
 Title: Flexible Odds Ratio Curves
 Authors@R: c(
   person(
@@ -10,7 +10,7 @@ Authors@R: c(
     family = "Azevedo",
     email = "marta.vasconcelos4@gmail.com",
     comment = c(ORCID = "0009-0003-4412-6991"),
-    role = c("aut", "cre") ),
+    role = "aut" ),
   person(
     given = "Luis",
     family = "Meira-Machado",
@@ -22,22 +22,23 @@ Authors@R: c(
     family = "Araujo",
     email = "artur.stat@gmail.com",
     comment = c(ORCID = "0000-0003-1419-4208"),
-    role = "aut" ) )
-Maintainer: Marta Azevedo <marta.vasconcelos4@gmail.com>
+    role = c("aut", "cre") ) )
+Maintainer: Artur Araujo <artur.stat@gmail.com>
 Depends: R (>= 3.1.0)
 Imports: gam, graphics, grDevices, mgcv, stats
 Suggests: 
     knitr,
-    mlbench,
     R.rsp,
     rmarkdown,
     plotly
-Description: Provides flexible odds ratio curves that enable modeling non-linear relationships between continuous predictors and binary outcomes. This package facilitates a deeper understanding of the impact of each continuous predictor on the outcome by presenting results in terms of odds ratio (OR) curves based on splines. These curves allow for comparison against a specified reference value, aiding in the interpretation of the predictor's effect.
+Description: Provides flexible odds ratio curves that enable modeling non-linear relationships between continuous predictors and binary outcomes.
+	Facilitates a deeper understanding of the impact of each continuous predictor on the outcome by presenting results in terms of odds ratio (OR) curves based on splines.
+	These curves allow for comparison against a specified reference value, aiding in the interpretation of the predictor's effect.
 License: GPL-3
-URL: https://github.com/martaaaa/flexOR
-BugReports: https://github.com/martaaaa/flexOR/issues
+URL: https://github.com/arturstat/flexOR
+BugReports: https://github.com/arturstat/flexOR/issues
 LazyLoad: yes
 LazyData: no
 NeedsCompilation: no
-RoxygenNote: 7.3.2
 VignetteBuilder: knitr
+Config/roxygen2/version: 8.1.0

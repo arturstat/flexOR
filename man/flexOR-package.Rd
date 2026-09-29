@@ -5,7 +5,7 @@
 \alias{flexOR-package}
 \title{flexOR: Flexible Odds Ratio Curves}
 \description{
-Provides flexible odds ratio curves that enable modeling non-linear relationships between continuous predictors and binary outcomes. This package facilitates a deeper understanding of the impact of each continuous predictor on the outcome by presenting results in terms of odds ratio (OR) curves based on splines. These curves allow for comparison against a specified reference value, aiding in the interpretation of the predictor's effect.
+Provides flexible odds ratio curves that enable modeling non-linear relationships between continuous predictors and binary outcomes. Facilitates a deeper understanding of the impact of each continuous predictor on the outcome by presenting results in terms of odds ratio (OR) curves based on splines. These curves allow for comparison against a specified reference value, aiding in the interpretation of the predictor's effect.
 }
 \references{
 Akaike, H. (1974). A new look at the statistical model identification.
@@ -66,18 +66,19 @@ Akaike, H. (1974). A new look at the statistical model identification.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/martaaaa/flexOR}
-  \item Report bugs at \url{https://github.com/martaaaa/flexOR/issues}
+  \item \url{https://github.com/arturstat/flexOR}
+  \item Report bugs at \url{https://github.com/arturstat/flexOR/issues}
 }
 
 }
 \author{
-\strong{Maintainer}: Marta Azevedo \email{marta.vasconcelos4@gmail.com} (\href{https://orcid.org/0009-0003-4412-6991}{ORCID})
+\strong{Maintainer}: Artur Araujo \email{artur.stat@gmail.com} (\href{https://orcid.org/0000-0003-1419-4208}{ORCID})
 
 Authors:
 \itemize{
-  \item Luis Meira-Machado \email{lmachado@math.uminho.pt} (\href{https://orcid.org/0000-0002-8577-7665}{ORCID})
   \item Artur Araujo \email{artur.stat@gmail.com} (\href{https://orcid.org/0000-0003-1419-4208}{ORCID})
+  \item Marta Azevedo \email{marta.vasconcelos4@gmail.com} (\href{https://orcid.org/0009-0003-4412-6991}{ORCID})
+  \item Luis Meira-Machado \email{lmachado@math.uminho.pt} (\href{https://orcid.org/0000-0002-8577-7665}{ORCID})
 }
 
 }

@@ -14,7 +14,7 @@ install.packages(pkgs="flexOR");
 If you want to use the development version of the **flexOR** package, you can install the package from GitHub via the [**remotes**](https://remotes.r-lib.org) package:
 ```r
 remotes::install_github(
-  repo="martaaaa/flexOR",
+  repo="arturstat/flexOR",
   build=TRUE,
   build_manual=TRUE,
   build_vignettes=TRUE
@@ -22,9 +22,8 @@ remotes::install_github(
 ```
 
 ## Authors
-Marta Azevedo, Luís Meira-Machado <lmachado@math.uminho.pt> \
-and Artur Araujo <artur.stat@gmail.com> \
-Maintainer: Marta Azevedo <marta.vasconcelos4@gmail.com>
+Marta Azevedo <marta.vasconcelos4@gmail.com>, Luís Meira-Machado <lmachado@math.uminho.pt>, and Artur Araujo \
+Maintainer: Artur Araujo <artur.stat@gmail.com>
 
 ## Funding
 This research was financed by **FCT** -- *Fundação para a Ciência e a Tecnologia*, under Projects UIDB/00013/2020, UIDP/00013/2020, and EXPL/MAT-STA/0956/2021.
