@@ -22,7 +22,7 @@
 #'
 #' @examples
 #' # Load dataset
-#' data(PimaIndiansDiabetes2, package="mlbench");
+#' data(PimaIndiansDiabetes2);
 #'
 #' # Fit GAM model
 #' fit <- mgcv::gam(
@@ -35,7 +35,8 @@
 #' AICc(fit);
 #'
 #' @seealso
-#' \code{\link{gam}}, \code{\link{logLik}}, \code{\link{AIC}}
+#' \code{\link[mgcv]{gam}}, \code{\link[gam]{gam}},
+#' \code{\link[stats]{logLik}}, \code{\link[stats]{AIC}}
 #'
 #' @keywords models nonlinear regression smooth
 #' @importFrom stats logLik

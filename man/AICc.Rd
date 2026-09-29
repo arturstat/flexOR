@@ -23,7 +23,7 @@ that penalizes the number of parameters in the model to avoid overfitting.
 }
 \examples{
 # Load dataset
-data(PimaIndiansDiabetes2, package="mlbench");
+data(PimaIndiansDiabetes2);
 
 # Fit GAM model
 fit <- mgcv::gam(
@@ -43,7 +43,8 @@ Azevedo, M., Meira-Machado, L., Gude, F., and Araújo, A. (2024).
  \doi{10.3390/app14093897}
 }
 \seealso{
-\code{\link{gam}}, \code{\link{logLik}}, \code{\link{AIC}}
+\code{\link[mgcv]{gam}}, \code{\link[gam]{gam}},
+\code{\link[stats]{logLik}}, \code{\link[stats]{AIC}}
 }
 \keyword{models}
 \keyword{nonlinear}
