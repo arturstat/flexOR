@@ -75,7 +75,7 @@ Plots smooth odds ratios along with confidence intervals for a specified predict
 library(gam);
 
 # Load dataset
-data(PimaIndiansDiabetes2, package="mlbench");
+data(PimaIndiansDiabetes2);
 
 mod1 <- flexOR(
   data=PimaIndiansDiabetes2,

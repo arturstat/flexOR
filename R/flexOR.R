@@ -39,7 +39,7 @@
 #' library(gam);
 #'
 #' # Load dataset
-#' data(PimaIndiansDiabetes2, package="mlbench");
+#' data(PimaIndiansDiabetes2);
 #'
 #' # Calculate odds ratios using flexOR
 #' df_result <- flexOR(data = PimaIndiansDiabetes2, response = "diabetes",

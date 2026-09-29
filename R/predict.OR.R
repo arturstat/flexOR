@@ -30,7 +30,7 @@
 #' library(gam);
 #'
 #' # Load the Pima Indians Diabetes dataset
-#' data(PimaIndiansDiabetes2, package="mlbench");
+#' data(PimaIndiansDiabetes2);
 #'
 #' # Calculate smooth odds ratios using flexOR
 #' mod1 <- flexOR(

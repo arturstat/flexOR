@@ -34,9 +34,10 @@
 #'  \doi{10.3390/app14093897}
 #'
 #' @examples
+#' library(gam);
+#'
 #' # Load dataset
-#' library(gam)
-#' data(PimaIndiansDiabetes2, package="mlbench");
+#' data(PimaIndiansDiabetes2);
 #'
 #' # Calculate degrees of freedom using AIC
 #' df2 <- dfgam(

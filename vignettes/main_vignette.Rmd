@@ -55,13 +55,13 @@ The next section of the paper describes the features and functions of the packag
 
 This section explores the Pima Indians Diabetes Database, a widely recognized dataset in the domains of machine learning and statistics. Originating from a study conducted by the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) in the 1990s, the dataset focuses on the Pima Indian population in Arizona, USA.
 
-Comprising various demographic, clinical, and diagnostic measurements, the dataset includes information on whether each individual developed diabetes. Researchers and data scientists frequently employ this dataset to construct and evaluate predictive models for diabetes, utilizing features such as age (years), BMI (Body Mass Index), blood pressure, diabetes pedigree function, and other health-related variables. The dataset is conveniently accessible through the **mlbench** R package.
+Comprising various demographic, clinical, and diagnostic measurements, the dataset includes information on whether each individual developed diabetes. Researchers and data scientists frequently employ this dataset to construct and evaluate predictive models for diabetes, utilizing features such as age (years), BMI (Body Mass Index), blood pressure, diabetes pedigree function, and other health-related variables.
 
 This dataset comprises 768 observations across 9 variables, encompassing details on pregnancy, glucose levels, blood pressure, triceps thickness, insulin levels, body mass index, pedigree, age, and diabetes status. The subsequent presentation of the R object structure provides comprehensive information regarding data types and values within each variable.
 
 
 ```{r load_data}
-library(mlbench)
+library(flexOR)
 data("PimaIndiansDiabetes2")
 str(PimaIndiansDiabetes2)
 ```
@@ -70,7 +70,6 @@ After identifying the variables to be included in the model and determining thos
 
 
 ```{r create_df2}
-library(flexOR)
 library(gam)
 df2 <- dfgam(response="diabetes", 
             nl.predictors=c("age","mass"), 

@@ -37,7 +37,7 @@
 #' library(gam);
 #'
 #' # Load dataset
-#' data(PimaIndiansDiabetes2, package="mlbench");
+#' data(PimaIndiansDiabetes2);
 #'
 #' mod1 <- flexOR(
 #'   data=PimaIndiansDiabetes2,

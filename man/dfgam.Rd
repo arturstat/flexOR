@@ -47,9 +47,10 @@ Information Criterion) as the selection criteria. This function is useful for
 determining the appropriate degrees of freedom for smoothing terms in GAMs.
 }
 \examples{
+library(gam);
+
 # Load dataset
-library(gam)
-data(PimaIndiansDiabetes2, package="mlbench");
+data(PimaIndiansDiabetes2);
 
 # Calculate degrees of freedom using AIC
 df2 <- dfgam(
