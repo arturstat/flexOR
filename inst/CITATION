@@ -16,7 +16,7 @@ bibentry(
                   person(
                     given = "Marta",
                     family = "Azevedo",
-                    role = c("aut", "cre"),
+                    role = "aut",
                     email = "marta.vasconcelos4@gmail.com",
                     comment = c(ORCID = "0009-0003-4412-6991")
                   ),
@@ -30,7 +30,7 @@ bibentry(
                   person(
                     given = "Artur",
                     family = "Araújo",
-                    role = "aut",
+                    role = c("aut", "cre"),
                     email = "artur.stat@gmail.com",
                     comment = c(ORCID = "0000-0003-1419-4208")
                   )
