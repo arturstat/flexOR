@@ -5,7 +5,7 @@
 \alias{flexOR-package}
 \title{flexOR: Flexible Odds Ratio Curves}
 \description{
-Provides flexible odds ratio curves that enable modeling non-linear relationships between continuous predictors and binary outcomes. Facilitates a deeper understanding of the impact of each continuous predictor on the outcome by presenting results in terms of odds ratio (OR) curves based on splines. These curves allow for comparison against a specified reference value, aiding in the interpretation of the predictor's effect.
+Provides flexible odds ratio curves that enable modeling non-linear relationships between continuous predictors and binary outcomes. Facilitates a deeper understanding of the impact of each continuous predictor on the outcome by presenting results in terms of odds ratio (OR) curves based on splines. These curves allow for comparison against a specified reference value, aiding in the interpretation of the predictor's effect. Methods are described in Azevedo et al. (2024) \doi{10.3390/app14093897}.
 }
 \references{
 Akaike, H. (1974). A new look at the statistical model identification.
